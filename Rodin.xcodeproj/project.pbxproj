@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18399F2D1DB9007500CA8B72 /* splashIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18399F2C1DB9007500CA8B72 /* splashIcon.png */; };
 		3AAEE2FA1D8FE81B007AD934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEE2F91D8FE81B007AD934 /* main.m */; };
 		3AAEE2FD1D8FE81C007AD934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEE2FC1D8FE81C007AD934 /* AppDelegate.m */; };
 		3AAEE3001D8FE81C007AD934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEE2FF1D8FE81C007AD934 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18399F2C1DB9007500CA8B72 /* splashIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashIcon.png; sourceTree = "<group>"; };
 		3AAEE2F51D8FE81B007AD934 /* Rodin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rodin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAEE2F91D8FE81B007AD934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AAEE2FB1D8FE81C007AD934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				3AAEE2FF1D8FE81C007AD934 /* ViewController.m */,
 				3AAEE3011D8FE81C007AD934 /* Main.storyboard */,
 				3AAEE30F1D8FECBF007AD934 /* LaunchScreen.storyboard */,
+				18399F2C1DB9007500CA8B72 /* splashIcon.png */,
 				3AAEE3041D8FE81C007AD934 /* Assets.xcassets */,
 				3AAEE3091D8FE81C007AD934 /* Info.plist */,
 				3AAEE2F81D8FE81B007AD934 /* Supporting Files */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AAEE3101D8FECBF007AD934 /* LaunchScreen.storyboard in Resources */,
+				18399F2D1DB9007500CA8B72 /* splashIcon.png in Resources */,
 				3AAEE3051D8FE81C007AD934 /* Assets.xcassets in Resources */,
 				3AAEE3031D8FE81C007AD934 /* Main.storyboard in Resources */,
 			);
@@ -283,8 +287,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = REPLACE_BUNDLE_IDENTIFIER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "REPLACE_UUID";
-				PROVISIONING_PROFILE_SPECIFIER = "REPLACE_UUNAME";
+				PROVISIONING_PROFILE = REPLACE_UUID;
+				PROVISIONING_PROFILE_SPECIFIER = REPLACE_UUNAME;
 			};
 			name = Release;
 		};
